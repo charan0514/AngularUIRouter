@@ -1,0 +1,28 @@
+.simpleUIRouterApp .width100 {
+  width: 100%; }
+.simpleUIRouterApp .appHeader {
+  height: 40px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  text-align: -webkit-center; }
+.simpleUIRouterApp .height100 {
+  height: 100%; }
+.simpleUIRouterApp .app-nav-buttons {
+  margin: auto 5px; }
+.simpleUIRouterApp .appTitle {
+  font-size: 18px;
+  line-height: 20px; }
+.simpleUIRouterApp .app-nav-btn-holder {
+  height: 70px; }
+.simpleUIRouterApp .app-navbar {
+  float: right; }
+
+/*# sourceMappingURL=commonStyles.css.map */
+
+.simpleUIRouterApp .app-nav-buttons {
+  border-radius: 5px;
+  border: 2px solid gray; }
+.simpleUIRouterApp .navbar {
+  border-radius: 0px; }
+
+/*# sourceMappingURL=theme.css.map */

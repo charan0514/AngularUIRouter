@@ -1,0 +1,30 @@
+.simpleUIRouterApp{
+	.width100{
+		width: 100%;
+	}
+	.appHeader{
+		height: 40px;
+		 display: -webkit-box;
+	     //display: flex;
+	     -webkit-box-align: center;
+	   	 //box-align: center;
+	   	 text-align: -webkit-center;
+	   	 //text-align: center;
+	}
+	.height100{
+		height: 100%;
+	}
+	.app-nav-buttons{
+		margin: auto 5px;
+	}
+	.appTitle{
+	    font-size: 18px;
+    	line-height: 20px;
+    }
+    .app-nav-btn-holder{
+    	height: 70px;
+    }
+    .app-navbar{
+    	float: right;
+    }
+}

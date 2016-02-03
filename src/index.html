@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- CSS (load bootstrap) -->
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/commonStyles.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+    <!-- JS (load angular, ui-router, and our custom js file) -->
+  <!-- <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>-->
+
+   <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script> -->
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>     
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js'></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script> -->
+
+    <script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-ui-router.min.js"></script>
+
+</head>
+
+<script src="js/appData.js"></script>
+<script src="js/customUtil.js"></script>
+
+<script src="js/app.js"></script>
+
+
+<!-- apply our angular app to our site -->
+<body ng-app="routerApp">
+
+<!-- NAVIGATION -->
+<div class="simpleUIRouterApp">
+    <!-- <nav class="navbar navbar-inverse" role="navigation"> -->
+        <div class="appHeader width100">
+            <span class="appTitle">AngularUI Router</span>
+        </div>
+        <div class="app-nav-btn-holder">
+            <ul class="nav navbar-nav app-navbar">
+                <li><a ui-sref="home" class="app-nav-buttons">Home</a></li>
+                <li><a ui-sref="about"class="app-nav-buttons">About</a></li>
+            </ul>
+        </div>
+    <!-- </nav>-->
+
+<!-- MAIN CONTENT -->
+<!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+<div class="container">
+    <div ui-view></div>
+</div>
+
+<!-- <div class="text-center">-->
+    
+</div>
+
+</body>
+</html>
+
+
+                
